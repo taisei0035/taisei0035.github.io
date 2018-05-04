@@ -1,0 +1,467 @@
+
+
+@media screen and (min-width:960px) 
+{
+	body{
+		background-color: rgb(245, 245, 245);;
+		font-family: "Yu Mincho" , "游明朝体" , YuMincho, "HiraMinProN-W3" , "游明朝" , "HGS明朝E" , "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	}
+
+	#header {
+		height: 60px;
+		padding: 10px 0;
+		z-index: 999;
+		transition:all .3s ease-in-out;
+		border-bottom: solid 1px #D3D3D3;
+		background-color: #fff;
+	}
+	.header_inner {
+		width: 80%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	#header .logo {
+		margin: 0 2%;
+		display: inline-block;
+		height: 100%;
+	}
+	.logo img {
+		-ms-interpolation-mode:bicubic;   /* IE 7+ */
+		image-rendering: optimizeQuality; /* Fx, (Gecko 1.9.2) */
+		max-height: 100%;
+	}
+	.header_nav {
+		display: inline-block;
+		vertical-align: top;
+		width: 70%;
+		text-align: right;
+	}
+
+	.header_nav li {
+		display: inline-block;
+		margin: 12px 3px;
+		padding: 0 10px;
+	}
+	.header_nav li a{
+		color: black;
+		margin: 0 3px;
+		display: inline-block;
+		text-decoration: none;
+		line-height: 40px;
+		transition: all .3s ease-in-out;
+	}
+	.header_nav li a:hover {
+		text-decoration: underline;
+		text-shadow: 0px 0px 5px white;
+		color: #C0C0C0;
+	}
+	.img{
+		border: solid 1px black;
+		padding: 4px 12px 0 12px;
+		border-radius: 50%;
+	}
+	.img img{
+		width: 20px;
+	}
+	.header_inner p{
+		float: right;
+		font-size: 1.1rem;
+		margin-top: 23px;
+	}
+	.header_inner p a{
+		text-decoration: none;
+	}
+	.header_inner p span{
+		padding-left: 5px;
+	}
+	.header_inner p span:hover{
+		padding-left: 5px;
+		text-decoration: underline;
+	}
+	#navigation{
+		border-bottom: solid 1px #D3D3D3;
+	}
+	#navigation a{
+		text-decoration: none;
+		color: black;
+	}
+	#navigation a:hover{
+		filter:alpha(opacity=80);
+		opacity: 0.6;
+	}
+	#navigation ul{
+		width: 73%;
+		margin: 0 auto; 
+	}
+	#navigation li{
+		display: inline-block;
+		width: 13%;
+		text-align: center;
+		margin: 20px 10px 0 0;
+    	border-bottom: 35px solid #D3D3D3;
+    	border-left: 10px solid transparent;
+    	border-right: 10px solid transparent;
+    	height: 0;
+    	letter-spacing: 1px;
+	}
+
+	.bread-crumbs{
+		position: relative;
+		border-top: 1px solid #eee;
+		-webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16);
+		box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16);
+		background: #fff;
+	}
+	.bread-crumbs ul{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.bread-crumbs li{
+		display: inline-block;
+	}
+	.bread-crumbs a{
+		color: #808080;
+		text-decoration: none;
+	}
+	.bread-crumbs a:hover{
+		text-decoration: underline;
+	}
+	.bread-crumbs i{
+		color: #C0C0C0;
+	}
+	.bread-crumbs .now-bread{
+		color: #444444;
+	}
+
+
+	#main{
+		border-bottom: solid 1px #D3D3D3;
+		background-color: white;
+	}
+	.main-wrap{
+		width: 85%;
+		margin: 0 auto;
+	}
+	.main-left{
+		width: 22%;
+		margin: 3rem 0;
+		display: inline-block;
+		background-color: rgb(245, 245, 245);
+		border-radius: 5px;
+	}
+	.left-title{
+		padding: 20px 15px;
+    	border-left: 5px solid #ccc;
+    	border-bottom: 1px solid #e0e0e0;
+    	font-size: 20px;
+    	letter-spacing: initial;
+	}
+	.left-box{
+		position: relative;
+	    background: #f5f5f5;
+	    border-bottom: 1px solid #e0e0e0;
+	    margin-bottom: 10px;
+	}
+	.left-white{
+		background: #fff;
+		margin: 15px;
+	}
+	.left-wrap{
+		padding: 20px 0 20px 13px;
+		border-bottom: 1px dashed #ccc
+	}
+	.left-wrap .desc{
+		font-size: 1.1rem;
+		font-weight: bold;
+		letter-spacing: 3px;
+		margin-bottom: 10px;
+	}
+	.left-wrap select{
+		height: 40px;
+	}
+	.left-wrap span{
+		font-size: 1.4rem;
+	}
+	.submit input[type="submit"]{
+	    margin: 25px;
+	    width: 78%;
+	    padding: 15px;
+	    text-align: center;
+	    border: 1px solid #ededed;
+	    background-color: #ededed;
+	    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
+	    position: relative;
+	    border-radius: 4px;
+	    cursor: pointer;
+	    -webkit-appearance: initial;
+	}
+	.submit input[type="submit"]:hover{
+		position:relative;
+		top: 1px;
+		left: 1px;
+	}
+	.main-right{
+		width: 74%;
+		margin: 3rem 0 0 2rem;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.right-top{
+		padding: 0.5% 0 0.5% 10px;
+	    background: rgb(245, 245, 245);
+	    border-left: 5px solid #FF00FF;
+	    color: #000;
+	    font-size: 1.214em;
+	    margin-bottom: 25px;
+	}
+	.right-content{
+		width: 30.5%;
+		margin: 1rem .5rem;
+		display: inline-block;
+		border: solid 1px #DDDDDD;
+		border-radius: 3px;
+		background-color: #fff;
+		vertical-align: top;
+	}
+	.hed-img{
+		width: 100%;
+		height: 160px;
+		overflow: hidden;
+	}
+	.hed-img img{
+		width: 100%;
+		height: 100%;
+		display: block;
+		transition-duration: 0.3s;
+	}
+	.hed-img img:hover {
+	    transform: scale(1.1);	/*画像の拡大率*/
+		transition-duration: 0.3s;
+	}
+	.bot-header{
+		text-align: center;
+		padding: 20px 0 5px 0;
+	}
+	.bot-header .bot-name{
+		font-size: 1.3rem;
+		font-weight: bold;
+		letter-spacing: 5px;
+	}
+	.right-bottom a{
+		text-decoration: none;
+		color: #000;
+	}
+	.right-bottom a:hover{
+		
+	}
+	.bot-header .bot-size{
+		font-size: 13px;
+		line-height: 2;
+		letter-spacing: 3px;
+	}
+	.bot-price{
+		float: left;
+		padding: 0 10px 8px 10px;
+		font-weight: bold;
+		font-size: 17px;
+		color: #333;
+	}
+	.bot-price span{
+		font-size: 10px;
+	}
+	.bot-like{
+		float: right;
+		padding: 0 15px;
+		font-size: 17px;
+	}
+
+	#paginate {
+	    clear: both;
+	    position: relative;
+	    padding-top: 2rem;
+	    padding-bottom: 2rem;
+	    text-align: center;
+	}
+	#paginate p{
+		display: inline-block;
+	    position: relative;
+	    width: 2.2rem;
+	    height: 2.2rem;
+	    line-height: 2.2rem;
+	    margin: 0 .5rem;
+	    color: #000;
+	    font-size: .75rem;
+	    text-align: center;
+	    letter-spacing: normal;
+	    vertical-align: middle;
+	    font-weight: 700;
+	    background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.03));
+	    border: 1px solid rgba(0,0,0,.1);
+	    border-radius: 5px;
+	}
+
+	#footer{
+
+	}
+	.footer-wrap{
+		width: 78%;
+		margin: 0 auto;
+		padding: 3rem 0;
+	}
+	.footer-left{
+		width: 30%;	
+		display: inline-block;
+	}
+	.ft-left-wrap img{
+		width: 100%;
+		height: auto;
+	}
+	.footer-right{
+		width: 66%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 35px;
+	}
+	.footer-right li{
+		display: inline-block;
+		padding: 0 10px;
+		line-height: 3;
+	}
+	.footer-right li a{
+		color: #2990d0;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+/**
+* YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
+* http://cssreset.com
+* Copyright 2012 Yahoo! Inc. All rights reserved.
+* http://yuilibrary.com/license/
+*/
+/*
+TODO will need to remove settings on HTML since we can't namespace it.
+TODO with the prefix, should I group by selector or property for weight savings?
+*/
+html{
+color:#000;
+background:#FFF;
+}
+/*
+TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+TODO test putting a class on HEAD.
+- Fails on FF.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+margin:0;
+padding:0;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+fieldset,
+img {
+border:0;
+}
+/*
+TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+font-style:normal;
+font-weight:normal;
+}
+ol,
+ul {
+list-style:none;
+}
+caption,
+th {
+text-align:left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-size:100%;
+font-weight:normal;
+}
+q:before,
+q:after {
+content:'';
+}
+abbr,
+acronym {
+border:0;
+font-variant:normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+vertical-align:text-top;
+}
+sub {
+vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+font-family:inherit;
+font-size:inherit;
+font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+*font-size:100%;
+}
+/*because legend doesn't inherit in IE */
+legend {
+color:#000;
+}
+/* YUI CSS Detection Stamp */
+#yui3-css-stamp.cssreset { display: none; }
